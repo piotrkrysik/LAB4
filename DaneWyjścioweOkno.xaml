@@ -1,0 +1,17 @@
+﻿<Window x:Class="Lab4.DaneWyjścioweOkno"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Lab4"
+        mc:Ignorable="d"
+        Title="DaneWyjścioweOkno" Height="247" Width="358" ResizeMode="NoResize">
+    <Grid>
+        <Label x:Name="lblObwód" Content="0" HorizontalAlignment="Left" Margin="100,34,0,0" VerticalAlignment="Top" Width="79" Background="#FFC06767" x:FieldModifier="public"/>
+        <Label x:Name="lblPole" Content="0" HorizontalAlignment="Left" Margin="100,73,0,0" VerticalAlignment="Top" Height="31" Width="79" Background="#FF39BEA6" x:FieldModifier="public"/>
+        <Label Content="Obwód" HorizontalAlignment="Left" Margin="21,34,0,0" VerticalAlignment="Top"/>
+        <Label Content="Pole" HorizontalAlignment="Left" Margin="29,78,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="btnOK" Content="OK" HorizontalAlignment="Left" Margin="100,116,0,0" VerticalAlignment="Top" Click="btnOK_Click"/>
+
+    </Grid>
+</Window>

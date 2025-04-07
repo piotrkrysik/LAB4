@@ -1,0 +1,19 @@
+﻿<Window x:Class="Lab4.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Lab4"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button x:Name="btnOblicz" Content="Oblicz" HorizontalAlignment="Left" Margin="402,141,0,0" VerticalAlignment="Top" Height="43" Width="118" Click="btnOblicz_Click"/>
+        <Button x:Name="btnKula" Content="Kula" HorizontalAlignment="Left" Margin="335,166,0,0" VerticalAlignment="Top" Width="39" Height="26" Click="btnKula_Click"/>
+        <Button x:Name="btnStożek" Content="Stożek" HorizontalAlignment="Left" Margin="258,166,0,0" VerticalAlignment="Top" Height="26" Click="btnStożek_Click"/>
+        <Label x:Name="lblKula" Content="0" HorizontalAlignment="Left" Margin="40,217,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.067,0.018" Background="#FF5FBE35" Width="750" Height="99"/>
+        <Label x:Name="lblStożek" Content="0" HorizontalAlignment="Left" Margin="40,321,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.479,0.028" Background="#FF24CED4" Width="750" Height="84"/>
+        <Button x:Name="btnBrzydzizg" Content="Brzydzizg" HorizontalAlignment="Left" Margin="552,141,0,0" VerticalAlignment="Top" Height="38" Width="151" Click="btnBrzydzizg_Click"/>
+        <ListBox x:Name="lstBox" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="10,10,0,298"/>
+
+    </Grid>
+</Window>
